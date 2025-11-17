@@ -6,16 +6,14 @@ O projeto implementa **polifonia, pré-carregamento de áudio, otimização do a
 
 ## 📱 Funcionalidades
 - 🎵 **10 notas independentes**, divididas verticalmente no Canvas  
-- 🎹 **Polifonia realista** usando múltiplos componentes Sound  
-- ⚡ **Baixa latência** graças a pré-carregamento inteligente  
-- 🎨 **Canvas com divisões visuais** desenhadas automaticamente  
-- 🖐️ **Toque responsivo (tap) e arraste suave (drag)**  
-- 💡 Toca a nota **somente quando o dedo muda de segmento**, evitando repetição e lag  
+- 🎹 **Polifonia realista** usando múltiplos componentes Sound   
+- 🎨 **Canvas com divisões visuais** desenhadas automaticamente   
 - 🔊 Compatível com WAV para melhor desempenho
 
 ---
 
 ## 🧠 Estrutura da Lógica
+
 ### 1. Divisão do Canvas
 No `Screen.Initialize`, o app:
 - Calcula a altura de cada um dos 10 segmentos  
